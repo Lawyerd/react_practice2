@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Content from "./components/Content";
+import Subject from "./components/Subject";
+import List from "./components/List";
+import React, { Component } from "react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <body>
+      <div className="App">
+        <Subject title="WEB" sub="world wide web!"></Subject>
+        <List></List>
+        <Content
+          title="HTML"
+          desc="HTML is HyperText Markup Language."
+        ></Content>
+        <p>Junseok's first react</p>
+      </div>
+    </body>
   );
 }
 
