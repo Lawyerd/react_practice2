@@ -12,11 +12,25 @@ body {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+
   color: white;
+}
+
+a:visited, a:link{
+  color: white;	
+}
+
+a:hover{
+  color: antiquewhite;
 }
 
 .list {
   font-size: calc(5px + 2vmin);
+  
 }
 
+.junseok{
+  text-align: center;
+  font-size: calc(5px);
+}
 
